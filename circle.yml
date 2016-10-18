@@ -1,11 +1,7 @@
 general:
   build_dir: \src\test
-
-test:
- 
-  override: 
   
-  - mvn clean install
+test:
  
  post:
    
