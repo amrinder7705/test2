@@ -3,7 +3,9 @@ general:
 
 test:
  
-  override: - mvn clean install
+  override: 
+  
+  - mvn clean install
  
  post:
    
